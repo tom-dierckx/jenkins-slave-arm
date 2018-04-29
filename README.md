@@ -15,3 +15,5 @@ podTemplate(label: label, containers: [
     containerTemplate(name: 'jnlp', image: 'tomdierckx/jenkins-arm-slave-jnlp:0.0.2', args: '${computer.jnlpmac} ${computer.name}')
     ]) {
 ```
+
+Tested this on Raspberry pi 3b using Jenkins version 2.118 with kubernetes plugin version 1.6.0 .
